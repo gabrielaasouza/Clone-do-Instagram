@@ -1,0 +1,79 @@
+/* Lado esquerdo */
+.LadoEsquerdo {
+    display: flex;
+    flex-direction: column;
+    float: left;
+    margin: 0px 10px 10px 10px;
+}
+
+/* Menu com os itens */
+.menu-principal {
+    display: flex;
+    flex-direction: column;
+    margin: 0px 10px 0px 0px;
+}
+
+/* Logotipo */
+.logo img {
+    max-width: 133px;
+    margin: 10px 0px 0px 0px;
+    cursor: pointer;
+}
+
+/* Texto */
+.menu-principal span {
+    font-size: 16px;
+    margin: 5px 0px;
+    display: flex;
+    align-items: center;
+}
+
+/* Texto 'Menu' */
+.menu {
+    font-weight: 700;
+}
+
+/* Itens do Menu */
+.ItemMenu {
+    height: 45px;
+    border-radius: 5px;
+    margin: 0px;
+}
+
+.ItemMenu:hover {
+    cursor: pointer;
+    transition: 0.3s;
+    background-color: rgb(238, 238, 238);
+}
+
+/* Icones */
+.icone {
+    color: rgb(0, 0, 0);
+}
+
+.icone svg {
+    width: 30px;
+    height: 30px;
+    margin: 8px 15px;
+}
+
+/* Foto do perfil */
+.ItemPerfil img{
+    height: 31px;
+    width: 31px;
+    border-radius: 100%;
+    margin: 8px 15px;
+}
+
+/* Item Perfil */
+.ItemPerfil {
+    height: 45px;
+    border-radius: 5px;
+    margin: 0px;
+}
+
+.ItemPerfil:hover {
+    cursor: pointer;
+    transition: 0.3s;
+    background-color: rgb(238, 238, 238);
+}

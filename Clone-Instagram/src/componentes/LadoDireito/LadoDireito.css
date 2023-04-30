@@ -1,0 +1,52 @@
+.LadoDireito {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 20px 0px 0px;
+    width: 320px;
+}
+
+/* Sugeridos */
+.Sugeridos {
+    margin: 20px 40px 20px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: rgb(143, 143, 143);
+}
+
+.SugestaoPessoal {
+    font-weight: 500;
+}
+
+.VerTudo {
+    font-size: 12px;
+    font-weight: 500;
+    color: rgb(143, 143, 143);
+    cursor: pointer;
+}
+
+.VerTudo:hover {
+    color: rgb(61, 61, 61);
+}
+
+/* Footer */
+.Footer {
+    font-size: 12px;
+    color: rgb(182, 182, 182);
+    cursor: default;
+}
+.Footer span {
+    cursor: pointer;
+}
+
+.Footer span:hover {
+    text-decoration: underline;
+}
+
+.FeitoPor a {
+    text-decoration: none;
+}
+
+.FeitoPor a:visited {
+   color: rgb(182, 182, 182);
+}

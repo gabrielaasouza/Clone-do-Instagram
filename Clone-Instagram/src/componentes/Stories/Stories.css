@@ -1,0 +1,12 @@
+.Stories {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    background: rgb(255, 255, 255);
+    border: 1px solid #dadada;
+    border-radius: 10px;
+    width: 447px;
+    height: 80px;
+    margin: 20px 0;
+    padding: 10px;
+}
